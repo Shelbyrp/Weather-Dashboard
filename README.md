@@ -4,7 +4,7 @@
 
 Anyone who uses this application will be able to see the weather outlook for multiple cities, pending which cities they input, so that they are able to plan their trip accordingly. This is based on the below acceptance criteria.
 
-![Weather Dashboard](./Assets/image/demo.jpg)
+![Weather Dashboard](./Assets/image/dashboard.jpg)
 
 ## Acceptance Criteria
 
