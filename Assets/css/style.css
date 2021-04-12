@@ -23,6 +23,12 @@ li {
     background-color: grey;
 }
 
+.list-group button{
+    display: block;
+    width: 200px;
+    margin: 2px;
+}
+
 h5{
     font-weight: bolder;
     font-size: 24px;
