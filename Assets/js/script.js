@@ -16,10 +16,16 @@ function addHistory(city) {
     }
 }
 
-// Creating the list of cities from in local storage
+
+// // Creating the list of cities from in local storage
 function loadHistory() {
     let cities = JSON.parse(localStorage.getItem("cities"));
+    if (!cities) {
+        cities = []
+    }
     cities.map(function (i) {
+        cities.push(i);
+        localStorage.setItem("cities", JSON.stringify(cities));
         createButton(i);
     })
 }
