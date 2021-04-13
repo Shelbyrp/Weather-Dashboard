@@ -36,5 +36,7 @@ Final URL: https://shelbyrp.github.io/Weather-Dashboard/
 
 ## Resources
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
 https://www.w3schools.com/
+
 https://api.jquery.com/
