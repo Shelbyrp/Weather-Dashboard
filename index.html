@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Weather Dashboard</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -23,15 +22,14 @@
         <div class="row">
             <div class="col">
                 <div class="card-body text-center">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body bg-light">
-                            <h5 class="card-subtitle mb-2">Search For A City</h5>
+                    <div class="card" style="width: 24rem;">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-subtitle text-light mb-2">Search For A City</h5>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control searchInput" placeholder="Location"
-                                    aria-describedby="button-addon2">
+                                <input type="text" class="form-control searchInput" placeholder="Location">
                                 <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary bg-primary searchWeather text-white" type="button"
-                                        id="button-addon2">Search</button>
+                                    <button class="btn btn-outline-secondary bg-primary searchWeather text-white"
+                                        type="button" >Search</button>
                                 </div>
                             </div>
 
@@ -42,17 +40,17 @@
                 </div>
             </div>
 
-            <div class="col-6 mr-4 mt-4">
-                <div class="card currentCard pb-2 pt-1">
-                    <h5 class="card-title mt-2 text-center">Current Forecast</h5>
+            <div class="col-5 mr-4 mt-4">
+                <div class="card currentDay pb-2 pt-1">
+                    <h5 class="weatherTitle mt-2 text-center">Current Forecast</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 mt-4">
-                    <div class="card pb-5 fiveDayCard pl-5">
-                        <h5 class="card-title mt-2 mr-5">5-Day Forecast </h5>
+                <div class="col-12 mr-4 mt-4">
+                    <div class="card pb-0 pr-4 pl-5 mb-5">
+                        <h5 class="weatherTitle mt-2 mr-5">5-Day Forecast </h5>
                         <div class="row">
-                            <div class="col fiveDayOne">
+                            <div class="col fiveDay">
                             </div>
 
                         </div>
@@ -63,7 +61,7 @@
         </div>
     </div>
     </div>
-  
+
     <script src="./Assets/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
