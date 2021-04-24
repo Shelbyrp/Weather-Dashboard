@@ -40,3 +40,9 @@ https://getbootstrap.com/docs/5.0/getting-started/introduction/
 https://www.w3schools.com/
 
 https://api.jquery.com/
+
+# License
+
+@ Shelby R Pignat
+
+Licensed under the [MIT](LICENSE) license.
