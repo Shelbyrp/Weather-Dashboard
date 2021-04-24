@@ -5,6 +5,7 @@
 Anyone who uses this application will be able to see the weather outlook for multiple cities, pending which cities they input, so that they are able to plan their trip accordingly. This is based on the below acceptance criteria. [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) is used to retrieve weather data for cities. 
 
 ![Weather Dashboard](./Assets/image/dashboard.jpg)
+![Weather Dashboard to show local storage](./Assets/image/localstorage.jpg)
 
 ## Acceptance Criteria
 
