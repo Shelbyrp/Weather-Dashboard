@@ -14,7 +14,7 @@ Anyone who uses this application will be able to see the weather outlook for mul
 * They are presented with current and future conditions for that city and that city is added to the search history
 * They are presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index ( with a color that indicates whether the conditions are favorable, moderate, or severe)
 * Whey they view future weather conditions for that city they are presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-+ When they click on a city in the search history, they are again presented with current and future conditions for that city
+* When they click on a city in the search history, they are again presented with current and future conditions for that city
 
 ## HTML
 Content is dynamically updated in the HTML by JQuery. Bootstrap has been used to allow for a responsive design, although this can be finessed further.
