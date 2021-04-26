@@ -23,7 +23,6 @@ Content is dynamically updated in the HTML by JQuery. Bootstrap has been used to
 Minimal CSS has been used to create the gradient look in the header, apply styling to the cards and other elements in the HTML.
 
 ## JS
-
 There is one JavaScript page that contains arrays, jQuery, event listeners, local storage and more.
 
 Final URL: https://shelbyrp.github.io/Weather-Dashboard/
