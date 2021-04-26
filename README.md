@@ -25,6 +25,7 @@ Minimal CSS has been used to create the gradient look in the header, apply styli
 ## JS
 There is one JavaScript page that contains arrays, jQuery, event listeners, local storage and more.
 
+## Deployed Link
 Final URL: https://shelbyrp.github.io/Weather-Dashboard/
 
 ## Resources
